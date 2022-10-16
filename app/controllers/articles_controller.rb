@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   def index
-    @aricles = Articles.all
+    @articles = Articles.all
   end
 
   def show
