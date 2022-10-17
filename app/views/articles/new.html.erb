@@ -1,5 +1,7 @@
 <h1>Create New Article</h1>
 
+<h2><%= link_to "All Articles", articles_path %></h2>
+
 <%= form_with model: @article do |form| %>
   <div>
     <%= form.label :title %><br>
