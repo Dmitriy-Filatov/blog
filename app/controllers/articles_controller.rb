@@ -12,7 +12,7 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    @article = Article.new(tilte: '...', body: '...')
+    @article = Article.new(title: '...', body: '...')
     if @article.save
       redirect_to @article
     else
